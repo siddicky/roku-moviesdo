@@ -52,11 +52,7 @@ export function Hero({ items, eyebrow, compact = false }: { items: MediaCard[]; 
       className={compact ? "hero compact" : "hero"}
       aria-roledescription="carousel"
       aria-label="Featured"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => {
-        setPaused(false);
-        setShift({ x: 0, y: 0 });
-      }}
+      onMouseLeave={() => setShift({ x: 0, y: 0 })}
       onMouseMove={onMove}
       onFocus={() => setPaused(true)}
       onBlur={(event) => {
@@ -79,7 +75,12 @@ export function Hero({ items, eyebrow, compact = false }: { items: MediaCard[]; 
           <p className="hero-logline">{item.logline || item.description}</p>
           <MetaLine card={item} />
         </div>
-        <div className="hero-actions" data-tv-row="hero">
+        <div
+          className="hero-actions"
+          data-tv-row="hero"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+        >
           <PlayButton videoId={item.id} label={item.progress && item.progress > 2 ? "Resume" : "Play"} primary />
           <Link href={`/title/${item.id}`} className="btn btn-ghost" data-tv-item="">
             <Icon name="info" />

@@ -318,7 +318,7 @@ img { max-width: 100%; }
   gap: 16px;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 28px var(--gutter) 42px;
+  padding: 40px var(--gutter) 52px;
   scroll-padding-inline: var(--gutter);
   scroll-snap-type: x proximity;
   scrollbar-width: none;
@@ -353,8 +353,8 @@ img { max-width: 100%; }
 .card:hover .card-poster,
 .card:focus .card-poster,
 .card:focus-visible .card-poster {
-  transform: scale(1.08) translateY(-8px);
-  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.55), 0 2px 8px rgba(0, 0, 0, 0.35);
+  transform: scale(1.12) translateY(-10px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.62), 0 0 0 2px rgba(255, 255, 255, 0.88);
 }
 .card-caption {
   display: block;
@@ -629,7 +629,8 @@ img { max-width: 100%; }
   .hero, .hero.compact { min-height: 520px; height: 78vh; }
   .hero-content { padding-bottom: 28px; }
   .word { font-size: 18px; }
-  .nav-link span.label { display: none; }
+  .nav-link { font-size: 13px; padding: 6px 8px; gap: 5px; }
+  .nav-inner { gap: 12px; }
   .episode { grid-template-columns: 112px 1fr; }
   .episode .ep-dur { display: none; }
   .episode img { width: 112px; height: 64px; }

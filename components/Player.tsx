@@ -118,7 +118,7 @@ export function Player({
           </div>
           <div className="scrub">
             <button type="button" className="btn btn-primary" onClick={() => setPlaying((value) => !value)} aria-label={playing ? "Pause" : "Play"}>
-              <Icon name="play" />
+              <Icon name={playing ? "pause" : "play"} />
               {playing ? "Pause" : "Play"}
             </button>
             <input

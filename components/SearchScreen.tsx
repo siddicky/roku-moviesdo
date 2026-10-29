@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Icon } from "@/components/Icons";
 import { MediaCard } from "@/components/MediaCard";
 import { MediaRow } from "@/components/MediaRow";
@@ -8,47 +8,74 @@ import type { MediaCard as Card, MediaRow as Row } from "@/lib/types";
 
 const CHIPS = ["Drama", "Sci-Fi", "Thriller", "Animation", "Comedy", "Mystery", "Adventure"];
 
+function matches(card: Card, query: string) {
+  const hay = `${card.title} ${card.logline} ${card.description} ${card.genres.join(" ")} ${card.year} ${card.kind}`.toLowerCase();
+  return hay.includes(query);
+}
+
 export function SearchScreen({
   initialQuery,
   initialResults,
   suggestions,
+  catalog,
 }: {
   initialQuery: string;
   initialResults: Card[];
   suggestions: Row[];
+  catalog?: Card[];
 }) {
   const [query, setQuery] = useState(initialQuery);
-  const [results, setResults] = useState(initialResults);
+  const [remote, setRemote] = useState(initialResults);
   const [pending, setPending] = useState(false);
+  const [settled, setSettled] = useState(Boolean(initialQuery));
+  const trimmed = query.trim();
+  const needle = trimmed.toLowerCase();
+
+  const localResults = useMemo(() => {
+    if (!catalog || !needle) return null;
+    return catalog.filter((card) => matches(card, needle));
+  }, [catalog, needle]);
 
   useEffect(() => {
-    const trimmed = query.trim();
-    if (trimmed === initialQuery.trim()) {
-      setResults(initialResults);
+    if (catalog) return;
+    if (!trimmed) {
+      setRemote([]);
+      setSettled(false);
+      setPending(false);
       return;
     }
-    const controller = new AbortController();
+    let cancelled = false;
+    setPending(true);
     const timer = window.setTimeout(() => {
-      setPending(true);
-      void fetch(`/api/search?q=${encodeURIComponent(trimmed)}`, { signal: controller.signal })
+      void fetch(`/api/search?q=${encodeURIComponent(trimmed)}`)
         .then(async (response) => {
           const data = (await response.json()) as { items?: Card[] };
-          setResults(data.items ?? []);
-          const url = trimmed ? `/search?q=${encodeURIComponent(trimmed)}` : "/search";
-          window.history.replaceState(null, "", url);
+          if (cancelled) return;
+          setRemote(data.items ?? []);
+          setSettled(true);
+          window.history.replaceState(null, "", `/search?q=${encodeURIComponent(trimmed)}`);
         })
-        .catch((reason: unknown) => {
-          if (reason instanceof DOMException && reason.name === "AbortError") return;
+        .catch(() => {
+          if (!cancelled) setSettled(true);
         })
-        .finally(() => setPending(false));
-    }, 180);
+        .finally(() => {
+          if (!cancelled) setPending(false);
+        });
+    }, 160);
     return () => {
-      controller.abort();
+      cancelled = true;
       window.clearTimeout(timer);
     };
-  }, [query, initialQuery, initialResults]);
+  }, [trimmed, catalog]);
 
-  const trimmed = query.trim();
+  useEffect(() => {
+    if (!catalog) return;
+    const url = trimmed ? `/search?q=${encodeURIComponent(trimmed)}` : "/search";
+    window.history.replaceState(null, "", url);
+  }, [trimmed, catalog]);
+
+  const results = localResults ?? remote;
+  const showEmpty = Boolean(trimmed) && results.length === 0 && (catalog ? true : settled && !pending);
 
   return (
     <div className="page">
@@ -76,10 +103,10 @@ export function SearchScreen({
       </div>
       {trimmed ? (
         <>
-          <p className="result-count">
-            {pending ? "Searching…" : `${results.length} ${results.length === 1 ? "title" : "titles"}`}
+          <p className="result-count" aria-live="polite">
+            {pending && !catalog ? "Searching…" : `${results.length} ${results.length === 1 ? "title" : "titles"}`}
           </p>
-          {results.length === 0 && !pending ? (
+          {showEmpty ? (
             <div className="empty">Nothing matches “{trimmed}”. Try a title or a genre.</div>
           ) : (
             <div className="grid" data-tv-row="results" data-tv-grid="">
