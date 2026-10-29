@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoPanel" extends="Group">
+    <script type="text/brightscript" uri="VideoPanel.brs" />
+    <script type="text/brightscript" uri="Util.brs" />
+    <interface>
+        <field id="serverUrl" type="string" />
+        <field id="episode" type="assocArray"
+               onChange="startEpisode" />
+        <field id="nextEpisode" type="assocArray" />
+        <field id="closed" type="boolean" alwaysNotify="true" />
+    </interface>
+    <children>
+        <Video id="video" translation="[0,0]" width="1920" height="1080" />
+        <Label id="status" translation="[60,540]" font="font:MediumSystemFont"
+               color="0xCADCE1" visible="false" />
+    </children>
+</component>

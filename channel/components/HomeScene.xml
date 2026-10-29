@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HomeScene" extends="Scene">
+    <script type="text/brightscript" uri="HomeScene.brs" />
+    <script type="text/brightscript" uri="Util.brs" />
+    <interface>
+        <field id="serverUrl" type="string" />
+        <function name="startApp" />
+    </interface>
+    <children>
+        <Label id="busy" translation="[1460,64]" font="font:SmallSystemFont"
+               color="0x00ACC1" text="" />
+        <Rectangle width="360" height="1080" color="0x0E2430" />
+        <Overhang id="overhang" title="Movies Portal TV" showOptions="false" />
+        <LabelList id="rail" translation="[30,140]" itemSize="[320,60]"
+                   itemSpacing="[0,4]" numRows="13" vertFocusAnimationStyle="floatingFocus"
+                   color="0x809DA5" focusedColor="0xFFFFFF" />
+        <RowList id="rows" translation="[420,150]" itemComponentName="CardItem"
+                 itemSize="[1480,150]" itemSpacing="[0,60]"
+                 rowItemSize="[[258,150]]" rowItemSpacing="[[24,0]]"
+                 showRowLabel="true" numRows="5" />
+        <TitlePanel id="titlePanel" visible="false" />
+        <VideoPanel id="videoPanel" visible="false" />
+    </children>
+</component>

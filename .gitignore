@@ -1,0 +1,7 @@
+channel.zip
+server/server.log
+*.log
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
