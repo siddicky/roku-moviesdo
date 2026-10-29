@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>Silver Watershed</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="55%" stop-color="#123044"/>
+      <stop offset="100%" stop-color="#7fcdc6"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="819.9" cy="396.5" r="0.55" fill="#d7fff8" opacity="0.59"/><circle cx="421.3" cy="456.7" r="0.58" fill="#d7fff8" opacity="0.55"/><circle cx="1030.3" cy="82.4" r="1.01" fill="#d7fff8" opacity="0.39"/><circle cx="343.3" cy="178.8" r="1.17" fill="#d7fff8" opacity="0.44"/><circle cx="1011.2" cy="284.1" r="0.62" fill="#d7fff8" opacity="0.73"/><circle cx="166.6" cy="43.9" r="0.57" fill="#d7fff8" opacity="0.54"/><circle cx="791.4" cy="140.8" r="0.73" fill="#d7fff8" opacity="0.58"/><circle cx="1248.0" cy="461.6" r="1.29" fill="#d7fff8" opacity="0.44"/><circle cx="999.8" cy="195.8" r="0.87" fill="#d7fff8" opacity="0.58"/><circle cx="456.7" cy="31.4" r="0.75" fill="#d7fff8" opacity="0.80"/><circle cx="1005.5" cy="474.7" r="1.64" fill="#d7fff8" opacity="0.51"/><circle cx="1429.0" cy="62.0" r="1.03" fill="#d7fff8" opacity="0.64"/><circle cx="683.2" cy="201.4" r="1.33" fill="#d7fff8" opacity="0.88"/><circle cx="1202.7" cy="155.4" r="1.02" fill="#d7fff8" opacity="0.63"/><circle cx="925.7" cy="375.7" r="0.49" fill="#d7fff8" opacity="0.92"/><circle cx="166.9" cy="192.3" r="1.82" fill="#d7fff8" opacity="0.65"/><circle cx="1283.4" cy="162.0" r="1.22" fill="#d7fff8" opacity="0.41"/><circle cx="1188.6" cy="162.1" r="1.24" fill="#d7fff8" opacity="0.83"/><circle cx="1119.9" cy="206.9" r="0.92" fill="#d7fff8" opacity="0.49"/><circle cx="170.0" cy="180.1" r="1.70" fill="#d7fff8" opacity="0.62"/><circle cx="1377.5" cy="452.8" r="1.82" fill="#d7fff8" opacity="0.52"/><circle cx="1286.6" cy="362.9" r="1.28" fill="#d7fff8" opacity="0.72"/><circle cx="1149.4" cy="236.5" r="1.86" fill="#d7fff8" opacity="0.49"/><circle cx="1249.5" cy="385.5" r="1.00" fill="#d7fff8" opacity="0.52"/><circle cx="297.2" cy="10.7" r="1.15" fill="#d7fff8" opacity="0.82"/><circle cx="374.9" cy="112.3" r="1.58" fill="#d7fff8" opacity="0.55"/><circle cx="524.5" cy="100.5" r="2.00" fill="#d7fff8" opacity="0.58"/><circle cx="1174.7" cy="217.7" r="0.74" fill="#d7fff8" opacity="0.69"/><circle cx="1184.4" cy="452.7" r="1.23" fill="#d7fff8" opacity="0.61"/><circle cx="47.8" cy="143.5" r="0.89" fill="#d7fff8" opacity="0.81"/><circle cx="1006.7" cy="426.6" r="1.10" fill="#d7fff8" opacity="0.35"/><circle cx="113.3" cy="260.6" r="1.88" fill="#d7fff8" opacity="0.42"/><circle cx="43.4" cy="465.3" r="0.47" fill="#d7fff8" opacity="0.83"/><circle cx="667.5" cy="253.1" r="0.80" fill="#d7fff8" opacity="0.77"/><circle cx="929.0" cy="213.5" r="1.08" fill="#d7fff8" opacity="0.85"/><circle cx="397.6" cy="197.6" r="1.99" fill="#d7fff8" opacity="0.72"/><circle cx="994.4" cy="328.3" r="0.74" fill="#d7fff8" opacity="0.47"/><circle cx="823.2" cy="111.9" r="1.31" fill="#d7fff8" opacity="0.64"/><circle cx="1222.0" cy="358.8" r="0.86" fill="#d7fff8" opacity="0.48"/><circle cx="1011.1" cy="265.4" r="1.79" fill="#d7fff8" opacity="0.40"/>
+    <circle cx="1124.5914129018781" cy="131.8526190253906" r="129.6" fill="#d7fff8" opacity="0.16"/>
+    <circle cx="1124.5914129018781" cy="131.8526190253906" r="54" fill="#d7fff8"/>
+    <circle cx="1111.0914129018781" cy="121.0526190253906" r="9.719999999999999" fill="#fff" opacity="0.35"/><polygon points="160,495.00000000000006 -160,900 480,900" fill="#041016" opacity="0.35"/><polygon points="512,378 192,900 832,900" fill="#041016" opacity="0.47"/><polygon points="864,540 544,900 1184,900" fill="#041016" opacity="0.59"/><polygon points="1216,432 896,900 1536,900" fill="#041016" opacity="0.71"/>
+      <rect y="774" width="1600" height="126.00000000000001" fill="#d7fff8" opacity="0.12"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

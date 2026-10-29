@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>The Passenger Light</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140818"/>
+      <stop offset="55%" stop-color="#6a2c3a"/>
+      <stop offset="100%" stop-color="#e7a15a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="365.2" cy="182.5" r="1.21" fill="#ffd7a1" opacity="0.52"/><circle cx="640.8" cy="145.8" r="0.68" fill="#ffd7a1" opacity="0.63"/><circle cx="643.0" cy="138.3" r="0.54" fill="#ffd7a1" opacity="0.40"/><circle cx="351.8" cy="444.3" r="0.86" fill="#ffd7a1" opacity="0.54"/><circle cx="329.5" cy="373.3" r="1.09" fill="#ffd7a1" opacity="0.43"/><circle cx="699.4" cy="127.2" r="0.85" fill="#ffd7a1" opacity="0.89"/><circle cx="511.1" cy="569.0" r="1.07" fill="#ffd7a1" opacity="0.79"/><circle cx="46.0" cy="208.8" r="1.69" fill="#ffd7a1" opacity="0.56"/><circle cx="463.4" cy="480.2" r="0.85" fill="#ffd7a1" opacity="0.66"/><circle cx="394.5" cy="29.4" r="1.16" fill="#ffd7a1" opacity="0.66"/><circle cx="3.9" cy="40.9" r="0.61" fill="#ffd7a1" opacity="0.56"/><circle cx="308.4" cy="178.0" r="0.77" fill="#ffd7a1" opacity="0.88"/><circle cx="138.1" cy="495.6" r="1.99" fill="#ffd7a1" opacity="0.73"/><circle cx="319.2" cy="517.1" r="0.51" fill="#ffd7a1" opacity="0.85"/><circle cx="135.5" cy="518.9" r="1.12" fill="#ffd7a1" opacity="0.55"/><circle cx="20.3" cy="109.3" r="1.75" fill="#ffd7a1" opacity="0.74"/><circle cx="420.1" cy="25.9" r="1.76" fill="#ffd7a1" opacity="0.64"/><circle cx="532.7" cy="568.0" r="1.26" fill="#ffd7a1" opacity="0.78"/>
+    <circle cx="618.1784860119224" cy="251.75688616186386" r="100.8" fill="#ffd7a1" opacity="0.16"/>
+    <circle cx="618.1784860119224" cy="251.75688616186386" r="42" fill="#ffd7a1"/>
+    <circle cx="607.6784860119224" cy="243.35688616186386" r="7.56" fill="#fff" opacity="0.35"/>
+      <rect x="64" y="696" width="120" height="192" rx="6" fill="#12060e"/><rect x="78" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.7638916600728407"/><rect x="106" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.7497650015167892"/><rect x="134" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.9373255940619856"/><rect x="162" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.5813384850509464"/><rect x="208" y="696" width="120" height="192" rx="6" fill="#12060e"/><rect x="222" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8712937194388359"/><rect x="250" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.77953554589767"/><rect x="278" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8315054466249421"/><rect x="306" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.5504762781085446"/><rect x="352" y="696" width="120" height="192" rx="6" fill="#12060e"/><rect x="366" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8992133901221677"/><rect x="394" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8795788171002641"/><rect x="422" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.815810681367293"/><rect x="450" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.9157965290825814"/><rect x="496" y="696" width="120" height="192" rx="6" fill="#12060e"/><rect x="510" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8270603551529347"/><rect x="538" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.45145783089101316"/><rect x="566" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8292044778820127"/><rect x="594" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.7288331867195665"/><rect x="640" y="696" width="120" height="192" rx="6" fill="#12060e"/><rect x="654" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.6339314022799953"/><rect x="682" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.9369251025374978"/><rect x="710" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.5651894485810771"/><rect x="738" y="712" width="16" height="12" fill="#ffd7a1" opacity="0.8414639101130887"/>
+      <rect y="912" width="800" height="6" fill="#ffd7a1" opacity="0.5"/>
+      <rect y="960" width="800" height="240" fill="#12060e"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">THRILLER</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">The Passenger</text><text x="48" y="1192" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Light</text>
+</svg>

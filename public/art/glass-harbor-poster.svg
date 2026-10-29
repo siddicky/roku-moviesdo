@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Glass Harbor</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140818"/>
+      <stop offset="55%" stop-color="#6a2c3a"/>
+      <stop offset="100%" stop-color="#e7a15a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="603.2" cy="275.1" r="1.63" fill="#ffd7a1" opacity="0.35"/><circle cx="194.4" cy="247.1" r="0.96" fill="#ffd7a1" opacity="0.51"/><circle cx="731.4" cy="228.5" r="1.10" fill="#ffd7a1" opacity="0.45"/><circle cx="87.5" cy="91.3" r="1.95" fill="#ffd7a1" opacity="0.41"/><circle cx="680.3" cy="337.9" r="0.90" fill="#ffd7a1" opacity="0.57"/><circle cx="267.9" cy="413.7" r="1.13" fill="#ffd7a1" opacity="0.38"/><circle cx="379.8" cy="546.7" r="1.98" fill="#ffd7a1" opacity="0.81"/><circle cx="527.6" cy="361.6" r="1.96" fill="#ffd7a1" opacity="0.60"/><circle cx="70.5" cy="559.3" r="1.85" fill="#ffd7a1" opacity="0.63"/><circle cx="623.5" cy="348.0" r="0.59" fill="#ffd7a1" opacity="0.90"/><circle cx="334.9" cy="570.1" r="0.69" fill="#ffd7a1" opacity="0.84"/><circle cx="484.9" cy="611.5" r="1.37" fill="#ffd7a1" opacity="0.74"/><circle cx="104.0" cy="563.1" r="1.36" fill="#ffd7a1" opacity="0.95"/><circle cx="85.5" cy="278.9" r="0.73" fill="#ffd7a1" opacity="0.57"/><circle cx="297.2" cy="291.7" r="1.37" fill="#ffd7a1" opacity="0.60"/><circle cx="399.8" cy="21.7" r="1.66" fill="#ffd7a1" opacity="0.68"/><circle cx="245.5" cy="324.0" r="1.27" fill="#ffd7a1" opacity="0.76"/><circle cx="673.9" cy="222.4" r="0.61" fill="#ffd7a1" opacity="0.60"/><circle cx="727.1" cy="183.8" r="0.56" fill="#ffd7a1" opacity="0.62"/><circle cx="226.1" cy="111.0" r="1.37" fill="#ffd7a1" opacity="0.68"/><circle cx="19.0" cy="150.1" r="0.74" fill="#ffd7a1" opacity="0.43"/><circle cx="239.5" cy="83.1" r="0.68" fill="#ffd7a1" opacity="0.62"/><circle cx="513.8" cy="508.7" r="1.93" fill="#ffd7a1" opacity="0.56"/><circle cx="278.7" cy="187.6" r="0.70" fill="#ffd7a1" opacity="0.36"/><circle cx="789.9" cy="38.4" r="0.50" fill="#ffd7a1" opacity="0.59"/><circle cx="526.0" cy="467.5" r="1.12" fill="#ffd7a1" opacity="0.71"/><circle cx="712.1" cy="173.7" r="0.45" fill="#ffd7a1" opacity="0.55"/><circle cx="417.2" cy="141.9" r="1.07" fill="#ffd7a1" opacity="0.36"/><circle cx="466.3" cy="368.9" r="1.02" fill="#ffd7a1" opacity="0.92"/><circle cx="711.7" cy="608.5" r="1.05" fill="#ffd7a1" opacity="0.55"/>
+    <circle cx="644.2686381600797" cy="205.76430962607267" r="158.4" fill="#ffd7a1" opacity="0.16"/>
+    <circle cx="644.2686381600797" cy="205.76430962607267" r="66" fill="#ffd7a1"/>
+    <circle cx="627.7686381600797" cy="192.56430962607268" r="11.879999999999999" fill="#fff" opacity="0.35"/>
+      <path d="M0 724 C 240 694, 560 754, 800 714 L 800 1200 L 0 1200 Z" fill="#12060e" opacity="0.55"/>
+      <rect y="744" width="800" height="456" fill="#12060e" opacity="0.78"/>
+      <rect x="65.21767299994826" y="545.0541670806706" width="2" height="198.9458329193294" fill="#12060e" opacity="0.8"/>
+        <rect x="55.21767299994826" y="600.7590002980828" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="140.3983681537211" y="559.4255888611078" width="2" height="184.57441113889217" fill="#12060e" opacity="0.8"/>
+        <rect x="130.3983681537211" y="611.1064239799977" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="210.0198360644281" y="504.01764273270965" width="2" height="239.98235726729035" fill="#12060e" opacity="0.8"/>
+        <rect x="200.0198360644281" y="571.2127027675509" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="286.0416547097266" y="549.0179856531322" width="2" height="194.98201434686783" fill="#12060e" opacity="0.8"/>
+        <rect x="276.0416547097266" y="603.6129496702551" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="357.57800786942244" y="543.6281260326505" width="2" height="200.37187396734956" fill="#12060e" opacity="0.8"/>
+        <rect x="347.57800786942244" y="599.7322507435083" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="434.9106693789362" y="571.9445424489677" width="2" height="172.0554575510323" fill="#12060e" opacity="0.8"/>
+        <rect x="424.9106693789362" y="620.1200705632567" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="497.2780226878822" y="579.0742084309459" width="2" height="164.92579156905413" fill="#12060e" opacity="0.8"/>
+        <rect x="487.2780226878822" y="625.2534300702811" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="577.1610204763709" y="592.1201327070594" width="2" height="151.87986729294062" fill="#12060e" opacity="0.8"/>
+        <rect x="567.1610204763709" y="634.6464955490827" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><rect x="647.7578068748116" y="582.1344235427678" width="2" height="161.86557645723224" fill="#12060e" opacity="0.8"/>
+        <rect x="637.7578068748116" y="627.4567849507928" width="22" height="1.5" fill="#ffd7a1" opacity="0.7"/><circle cx="253.6" cy="900.7" r="1.9495256473310292" fill="#ffd7a1" opacity="0.8"/><circle cx="92.1" cy="926.3" r="1.011452708626166" fill="#ffd7a1" opacity="0.8"/><circle cx="513.5" cy="755.1" r="1.8200556905940175" fill="#ffd7a1" opacity="0.8"/><circle cx="373.3" cy="786.7" r="1.7489934363402426" fill="#ffd7a1" opacity="0.8"/><circle cx="636.7" cy="801.4" r="1.9277367817703635" fill="#ffd7a1" opacity="0.8"/><circle cx="605.6" cy="843.9" r="1.959465523250401" fill="#ffd7a1" opacity="0.8"/><circle cx="97.9" cy="898.4" r="1.2087651984766126" fill="#ffd7a1" opacity="0.8"/><circle cx="472.2" cy="851.8" r="1.200085242278874" fill="#ffd7a1" opacity="0.8"/><circle cx="372.6" cy="902.9" r="1.3658551566768438" fill="#ffd7a1" opacity="0.8"/><circle cx="696.3" cy="835.1" r="1.1293484342750162" fill="#ffd7a1" opacity="0.8"/><circle cx="318.1" cy="942.7" r="1.1551945733372122" fill="#ffd7a1" opacity="0.8"/><circle cx="723.7" cy="843.9" r="1.925029140431434" fill="#ffd7a1" opacity="0.8"/><circle cx="577.9" cy="949.2" r="1.4378646234981716" fill="#ffd7a1" opacity="0.8"/><circle cx="531.1" cy="802.2" r="1.3248049153480679" fill="#ffd7a1" opacity="0.8"/><rect x="0" y="648" width="800" height="264" fill="#c9847a" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">DRAMA  ·  MYSTERY</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Glass Harbor</text>
+</svg>

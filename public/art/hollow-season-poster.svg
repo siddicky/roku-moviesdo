@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Hollow Season</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07140e"/>
+      <stop offset="55%" stop-color="#1c3d2e"/>
+      <stop offset="100%" stop-color="#8fbf7a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+      <circle cx="560" cy="504" r="128" fill="#e4f5c8" opacity="0.35"/>
+      <rect x="5.177589792292565" y="386.86623712442815" width="19.50526457745582" height="813.1337628755718" fill="#06110c" opacity="0.5936471162596717"/><rect x="58.27133254114805" y="371.5402021994814" width="30.842430042568594" height="828.4597978005186" fill="#06110c" opacity="0.7060696653090417"/><rect x="120.02246232636806" y="587.6711868066341" width="12.248001509346068" height="612.3288131933659" fill="#06110c" opacity="0.6571651214500889"/><rect x="171.85814932121764" y="441.7561359973624" width="18.639095162507147" height="758.2438640026376" fill="#06110c" opacity="0.7568669058848172"/><rect x="232.96205149597623" y="375.33153547346586" width="21.56209106463939" height="824.6684645265341" fill="#06110c" opacity="0.7069488446461036"/><rect x="294.76151055490067" y="429.8000229885801" width="23.780894566327333" height="770.1999770114198" fill="#06110c" opacity="0.6524296968011185"/><rect x="352.7422579707179" y="464.19397281389683" width="26.60073487414047" height="735.8060271861032" fill="#06110c" opacity="0.5894195931497961"/><rect x="406.0408211941831" y="446.84561320021743" width="17.157379172742367" height="753.1543867997825" fill="#06110c" opacity="0.8216744458070024"/><rect x="460.6169645042558" y="484.4197442186996" width="19.18085790844634" height="715.5802557813004" fill="#06110c" opacity="0.4913644724758342"/><rect x="515.7633135484399" y="420.32440720964223" width="10.4423508066684" height="779.6755927903578" fill="#06110c" opacity="0.5080763150937855"/><rect x="573.2006064140504" y="534.9817799348383" width="21.601779156830162" height="665.0182200651617" fill="#06110c" opacity="0.6176639327779412"/><rect x="630.6970870365122" y="579.5712966369465" width="30.677652281243354" height="620.4287033630535" fill="#06110c" opacity="0.8553518344881013"/><rect x="689.6847547457687" y="388.0296476455405" width="25.842875946313143" height="811.9703523544595" fill="#06110c" opacity="0.8869688888546079"/><rect x="746.3233469918903" y="563.0605781022459" width="21.55676309019327" height="636.9394218977541" fill="#06110c" opacity="0.4848161313449964"/><rect x="0" y="744" width="800" height="264" fill="#6ea37a" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">MYSTERY  ·  DRAMA</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Hollow Season</text>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>Hollow Season</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07140e"/>
+      <stop offset="55%" stop-color="#1c3d2e"/>
+      <stop offset="100%" stop-color="#8fbf7a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+      <circle cx="1120" cy="378" r="144" fill="#e4f5c8" opacity="0.35"/>
+      <rect x="6.927106485236436" y="334.4761119496543" width="26.184845740906894" height="565.5238880503457" fill="#06110c" opacity="0.9351269735954701"/><rect x="115.36859210746896" y="337.63997931894846" width="11.735393441747874" height="562.3600206810515" fill="#06110c" opacity="0.5171178010525181"/><rect x="231.25775351754524" y="403.676236964995" width="30.23128754273057" height="496.323763035005" fill="#06110c" opacity="0.4768932152539492"/><rect x="344.56370895761734" y="216.51369249843992" width="10.70898400619626" height="683.4863075015601" fill="#06110c" opacity="0.8249801806407049"/><rect x="460.9150262709175" y="430.9691934536677" width="20.412450638599694" height="469.0308065463323" fill="#06110c" opacity="0.50291642062366"/><rect x="580.8603625385357" y="413.53133519226685" width="11.292739749886096" height="486.46866480773315" fill="#06110c" opacity="0.5705145545536652"/><rect x="692.42661211939" y="179.67346069333144" width="14.419981877785176" height="720.3265393066686" fill="#06110c" opacity="0.8197803175309673"/><rect x="803.8576324190944" y="340.145255735144" width="14.398453113157302" height="559.854744264856" fill="#06110c" opacity="0.5267785833450034"/><rect x="921.1422572231719" y="442.78958973870607" width="24.140916709788144" height="457.21041026129393" fill="#06110c" opacity="0.9153173695551231"/><rect x="1030.643075663663" y="327.13275439850986" width="30.464411224238575" height="572.8672456014901" fill="#06110c" opacity="0.4782644755207002"/><rect x="1146.2114039951537" y="349.88078425917774" width="19.657194681465626" height="550.1192157408223" fill="#06110c" opacity="0.6958887476241216"/><rect x="1265.5845116238509" y="434.12262687273324" width="11.904990622773767" height="465.87737312726676" fill="#06110c" opacity="0.523454495286569"/><rect x="1376.3531729568995" y="370.7529622949659" width="18.26623280439526" height="529.247037705034" fill="#06110c" opacity="0.7465911156497895"/><rect x="1491.2730370375461" y="256.3823977746069" width="17.543710151221603" height="643.6176022253931" fill="#06110c" opacity="0.5755637480644509"/><rect x="0" y="558" width="1600" height="198" fill="#6ea37a" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

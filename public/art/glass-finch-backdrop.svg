@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>Glass Finch</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a12"/>
+      <stop offset="55%" stop-color="#6e2440"/>
+      <stop offset="100%" stop-color="#f0a3b5"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+      <circle cx="1120" cy="378" r="144" fill="#ffd0dc" opacity="0.35"/>
+      <rect x="4.518715441226959" y="216.86090691760182" width="16.91861488390714" height="683.1390930823982" fill="#14060c" opacity="0.4860279144952074"/><rect x="123.424652024904" y="231.34768768725914" width="13.751990171615034" height="668.6523123127408" fill="#14060c" opacity="0.9405183936934918"/><rect x="232.88889645232953" y="460.67797557846643" width="20.023480613250285" height="439.32202442153357" fill="#14060c" opacity="0.4876157476566732"/><rect x="343.3821966316152" y="397.9281172743067" width="30.157537838444114" height="502.0718827256933" fill="#14060c" opacity="0.6148452784866094"/><rect x="462.3363551680398" y="456.82931367703713" width="26.759186099283397" height="443.17068632296287" fill="#14060c" opacity="0.80785132588353"/><rect x="575.0061972778557" y="177.9349766105879" width="18.436968164984137" height="722.0650233894121" fill="#14060c" opacity="0.47694211108610035"/><rect x="693.0782526062935" y="410.9176456583664" width="28.871705336961895" height="489.0823543416336" fill="#14060c" opacity="0.9039718711748719"/><rect x="801.8874563858844" y="277.90118757798336" width="15.608927393332124" height="622.0988124220166" fill="#14060c" opacity="0.9159561114385724"/><rect x="917.5085167324038" y="212.11650478234515" width="21.71662866231054" height="687.8834952176549" fill="#14060c" opacity="0.6923536693677306"/><rect x="1034.932501396231" y="253.90787226660177" width="27.247966003138572" height="646.0921277333982" fill="#14060c" opacity="0.9138155468273907"/><rect x="1143.8744238720808" y="380.97405187133694" width="11.844180781859905" height="519.025948128663" fill="#14060c" opacity="0.5550507196923717"/><rect x="1258.8429348633092" y="241.95185487088747" width="12.765838947612792" height="658.0481451291125" fill="#14060c" opacity="0.8093513580271974"/><rect x="1373.7078620809398" y="192.9300340292975" width="18.28378930175677" height="707.0699659707025" fill="#14060c" opacity="0.45564574787858875"/><rect x="1488.3002621757" y="396.45479649002664" width="26.494093249551952" height="503.54520350997336" fill="#14060c" opacity="0.883653809945099"/><rect x="0" y="558" width="1600" height="198" fill="#e78aa0" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

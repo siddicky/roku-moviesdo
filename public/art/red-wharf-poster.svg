@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Red Wharf</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140804"/>
+      <stop offset="55%" stop-color="#7a2e0e"/>
+      <stop offset="100%" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="733.7" cy="533.6" r="1.37" fill="#ffd0a1" opacity="0.38"/><circle cx="780.0" cy="197.1" r="1.34" fill="#ffd0a1" opacity="0.45"/><circle cx="759.5" cy="534.1" r="1.23" fill="#ffd0a1" opacity="0.85"/><circle cx="782.2" cy="273.2" r="0.98" fill="#ffd0a1" opacity="0.72"/><circle cx="306.4" cy="463.6" r="1.83" fill="#ffd0a1" opacity="0.51"/><circle cx="783.4" cy="287.0" r="1.71" fill="#ffd0a1" opacity="0.87"/><circle cx="231.9" cy="384.4" r="1.01" fill="#ffd0a1" opacity="0.42"/><circle cx="455.2" cy="609.1" r="1.25" fill="#ffd0a1" opacity="0.42"/><circle cx="214.8" cy="535.5" r="1.02" fill="#ffd0a1" opacity="0.77"/><circle cx="97.8" cy="186.2" r="1.45" fill="#ffd0a1" opacity="0.45"/><circle cx="450.5" cy="356.9" r="1.55" fill="#ffd0a1" opacity="0.42"/><circle cx="148.2" cy="77.1" r="1.82" fill="#ffd0a1" opacity="0.77"/><circle cx="13.9" cy="274.9" r="1.34" fill="#ffd0a1" opacity="0.59"/><circle cx="743.5" cy="594.5" r="1.90" fill="#ffd0a1" opacity="0.38"/><circle cx="767.4" cy="60.6" r="1.23" fill="#ffd0a1" opacity="0.53"/><circle cx="362.1" cy="99.7" r="0.80" fill="#ffd0a1" opacity="0.35"/><circle cx="534.2" cy="117.0" r="0.67" fill="#ffd0a1" opacity="0.47"/><circle cx="22.8" cy="9.5" r="1.66" fill="#ffd0a1" opacity="0.59"/><circle cx="756.7" cy="329.3" r="1.35" fill="#ffd0a1" opacity="0.89"/><circle cx="790.3" cy="195.2" r="1.71" fill="#ffd0a1" opacity="0.38"/><circle cx="186.7" cy="270.1" r="0.85" fill="#ffd0a1" opacity="0.39"/><circle cx="483.3" cy="567.3" r="0.44" fill="#ffd0a1" opacity="0.45"/><circle cx="500.9" cy="282.1" r="1.73" fill="#ffd0a1" opacity="0.47"/><circle cx="104.4" cy="283.9" r="1.69" fill="#ffd0a1" opacity="0.64"/><circle cx="595.0" cy="103.0" r="1.58" fill="#ffd0a1" opacity="0.59"/><circle cx="601.1" cy="299.4" r="1.58" fill="#ffd0a1" opacity="0.85"/><circle cx="132.5" cy="96.2" r="1.52" fill="#ffd0a1" opacity="0.73"/><circle cx="87.8" cy="379.7" r="1.91" fill="#ffd0a1" opacity="0.89"/><circle cx="460.4" cy="222.8" r="0.87" fill="#ffd0a1" opacity="0.42"/><circle cx="477.2" cy="461.1" r="1.45" fill="#ffd0a1" opacity="0.50"/>
+    <circle cx="523.8262811526656" cy="286.27633612789214" r="158.4" fill="#ffd0a1" opacity="0.16"/>
+    <circle cx="523.8262811526656" cy="286.27633612789214" r="66" fill="#ffd0a1"/>
+    <circle cx="507.3262811526656" cy="273.07633612789215" r="11.879999999999999" fill="#fff" opacity="0.35"/>
+      <path d="M0 724 C 240 694, 560 754, 800 714 L 800 1200 L 0 1200 Z" fill="#120600" opacity="0.55"/>
+      <rect y="744" width="800" height="456" fill="#120600" opacity="0.78"/>
+      <rect x="69.59841126203537" y="537.5391974821687" width="2" height="206.4608025178313" fill="#120600" opacity="0.8"/>
+        <rect x="59.59841126203537" y="595.3482221871615" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="136.59699706360698" y="522.1708539649844" width="2" height="221.82914603501555" fill="#120600" opacity="0.8"/>
+        <rect x="126.59699706360698" y="584.2830148547888" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="213.24476129934192" y="611.4643744267523" width="2" height="132.53562557324767" fill="#120600" opacity="0.8"/>
+        <rect x="203.24476129934192" y="648.5743495872616" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="294.72529651969677" y="622.866124290973" width="2" height="121.13387570902707" fill="#120600" opacity="0.8"/>
+        <rect x="284.72529651969677" y="656.7836094895006" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="353.7082082256675" y="616.4531886130571" width="2" height="127.54681138694286" fill="#120600" opacity="0.8"/>
+        <rect x="343.7082082256675" y="652.1662958014011" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="435.4463847428559" y="555.4643348492682" width="2" height="188.5356651507318" fill="#120600" opacity="0.8"/>
+        <rect x="425.4463847428559" y="608.2543210914731" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="504.38576568290586" y="624.6982399486005" width="2" height="119.30176005139947" fill="#120600" opacity="0.8"/>
+        <rect x="494.38576568290586" y="658.1027327629924" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="578.4909838400781" y="641.8505618199706" width="2" height="102.14943818002939" fill="#120600" opacity="0.8"/>
+        <rect x="568.4909838400781" y="670.4524045103789" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><rect x="647.0207643695175" y="584.6342006362975" width="2" height="159.36579936370254" fill="#120600" opacity="0.8"/>
+        <rect x="637.0207643695175" y="629.2566244581342" width="22" height="1.5" fill="#ffd0a1" opacity="0.7"/><circle cx="558.7" cy="901.6" r="1.6457846784032881" fill="#ffd0a1" opacity="0.8"/><circle cx="126.3" cy="841.0" r="1.5665477626025677" fill="#ffd0a1" opacity="0.8"/><circle cx="70.5" cy="807.2" r="1.616724049206823" fill="#ffd0a1" opacity="0.8"/><circle cx="150.3" cy="914.0" r="1.946446790592745" fill="#ffd0a1" opacity="0.8"/><circle cx="417.5" cy="798.6" r="1.8928665316198021" fill="#ffd0a1" opacity="0.8"/><circle cx="797.1" cy="816.0" r="1.7930965088307858" fill="#ffd0a1" opacity="0.8"/><circle cx="190.1" cy="753.8" r="1.015994832618162" fill="#ffd0a1" opacity="0.8"/><circle cx="216.7" cy="768.8" r="1.188732624752447" fill="#ffd0a1" opacity="0.8"/><circle cx="635.5" cy="955.6" r="1.1924519301392138" fill="#ffd0a1" opacity="0.8"/><circle cx="708.7" cy="784.8" r="1.3856403229292482" fill="#ffd0a1" opacity="0.8"/><circle cx="56.6" cy="956.7" r="1.0171640773769468" fill="#ffd0a1" opacity="0.8"/><circle cx="167.2" cy="879.6" r="1.5298748116474599" fill="#ffd0a1" opacity="0.8"/><circle cx="488.9" cy="908.7" r="1.481312087038532" fill="#ffd0a1" opacity="0.8"/><circle cx="226.2" cy="917.6" r="1.3272551223635674" fill="#ffd0a1" opacity="0.8"/><rect x="0" y="648" width="800" height="264" fill="#ffb07a" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">THRILLER  ·  CRIME</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Red Wharf</text>
+</svg>
