@@ -2,6 +2,8 @@ type IconName = "home" | "film" | "tv" | "search" | "library" | "play" | "pause"
 
 export function Icon({ name }: { name: IconName }) {
   const common = {
+    width: 20,
+    height: 20,
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
@@ -46,13 +48,13 @@ export function Icon({ name }: { name: IconName }) {
       );
     case "play":
       return (
-        <svg viewBox="0 0 24 24" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M8 5.5v13l11-6.5z" fill="currentColor" />
         </svg>
       );
     case "pause":
       return (
-        <svg viewBox="0 0 24 24" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor" />
         </svg>
       );
