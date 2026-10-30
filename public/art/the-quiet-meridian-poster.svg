@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>The Quiet Meridian</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1016"/>
+      <stop offset="55%" stop-color="#243044"/>
+      <stop offset="100%" stop-color="#9aa8b8"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="58.4" cy="21.4" r="1.64" fill="#e6eef6" opacity="0.70"/><circle cx="10.3" cy="457.6" r="1.80" fill="#e6eef6" opacity="0.74"/><circle cx="230.3" cy="128.7" r="1.55" fill="#e6eef6" opacity="0.60"/><circle cx="583.6" cy="418.9" r="0.68" fill="#e6eef6" opacity="0.59"/><circle cx="641.2" cy="348.0" r="1.53" fill="#e6eef6" opacity="0.59"/><circle cx="270.5" cy="353.7" r="1.16" fill="#e6eef6" opacity="0.86"/><circle cx="229.0" cy="617.6" r="1.18" fill="#e6eef6" opacity="0.94"/><circle cx="611.4" cy="163.9" r="0.42" fill="#e6eef6" opacity="0.56"/><circle cx="555.1" cy="575.0" r="0.60" fill="#e6eef6" opacity="0.66"/><circle cx="755.4" cy="129.8" r="0.45" fill="#e6eef6" opacity="0.93"/><circle cx="727.3" cy="44.8" r="1.71" fill="#e6eef6" opacity="0.77"/><circle cx="123.6" cy="350.1" r="0.51" fill="#e6eef6" opacity="0.79"/><circle cx="676.4" cy="444.6" r="1.81" fill="#e6eef6" opacity="0.57"/><circle cx="1.4" cy="172.6" r="1.49" fill="#e6eef6" opacity="0.88"/><circle cx="723.7" cy="611.7" r="1.82" fill="#e6eef6" opacity="0.82"/><circle cx="145.6" cy="191.8" r="1.94" fill="#e6eef6" opacity="0.66"/><circle cx="422.1" cy="206.2" r="1.48" fill="#e6eef6" opacity="0.56"/><circle cx="231.1" cy="224.8" r="1.64" fill="#e6eef6" opacity="0.67"/>
+    <circle cx="625.5752492696047" cy="270.22639848478144" r="100.8" fill="#e6eef6" opacity="0.16"/>
+    <circle cx="625.5752492696047" cy="270.22639848478144" r="42" fill="#e6eef6"/>
+    <circle cx="615.0752492696047" cy="261.82639848478146" r="7.56" fill="#fff" opacity="0.35"/>
+      <rect x="64" y="696" width="120" height="192" rx="6" fill="#080c12"/><rect x="78" y="712" width="16" height="12" fill="#e6eef6" opacity="0.7180585518246516"/><rect x="106" y="712" width="16" height="12" fill="#e6eef6" opacity="0.912526703486219"/><rect x="134" y="712" width="16" height="12" fill="#e6eef6" opacity="0.6798246884020045"/><rect x="162" y="712" width="16" height="12" fill="#e6eef6" opacity="0.46872669183649124"/><rect x="208" y="696" width="120" height="192" rx="6" fill="#080c12"/><rect x="222" y="712" width="16" height="12" fill="#e6eef6" opacity="0.7459164211060851"/><rect x="250" y="712" width="16" height="12" fill="#e6eef6" opacity="0.7536092997062951"/><rect x="278" y="712" width="16" height="12" fill="#e6eef6" opacity="0.5832918783882632"/><rect x="306" y="712" width="16" height="12" fill="#e6eef6" opacity="0.4613921822048724"/><rect x="352" y="696" width="120" height="192" rx="6" fill="#080c12"/><rect x="366" y="712" width="16" height="12" fill="#e6eef6" opacity="0.9308189563918858"/><rect x="394" y="712" width="16" height="12" fill="#e6eef6" opacity="0.7359278280520811"/><rect x="422" y="712" width="16" height="12" fill="#e6eef6" opacity="0.5205267140874639"/><rect x="450" y="712" width="16" height="12" fill="#e6eef6" opacity="0.5656573210610076"/><rect x="496" y="696" width="120" height="192" rx="6" fill="#080c12"/><rect x="510" y="712" width="16" height="12" fill="#e6eef6" opacity="0.5996706124162301"/><rect x="538" y="712" width="16" height="12" fill="#e6eef6" opacity="0.6420995138352736"/><rect x="566" y="712" width="16" height="12" fill="#e6eef6" opacity="0.876962855271995"/><rect x="594" y="712" width="16" height="12" fill="#e6eef6" opacity="0.5386461003683507"/><rect x="640" y="696" width="120" height="192" rx="6" fill="#080c12"/><rect x="654" y="712" width="16" height="12" fill="#e6eef6" opacity="0.6668098336551338"/><rect x="682" y="712" width="16" height="12" fill="#e6eef6" opacity="0.8239998799283057"/><rect x="710" y="712" width="16" height="12" fill="#e6eef6" opacity="0.8094872633693739"/><rect x="738" y="712" width="16" height="12" fill="#e6eef6" opacity="0.9428203069139272"/>
+      <rect y="912" width="800" height="6" fill="#e6eef6" opacity="0.5"/>
+      <rect y="960" width="800" height="240" fill="#080c12"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">DRAMA</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">The Quiet</text><text x="48" y="1192" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Meridian</text>
+</svg>

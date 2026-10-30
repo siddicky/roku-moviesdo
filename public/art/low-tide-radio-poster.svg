@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Low Tide Radio</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140818"/>
+      <stop offset="55%" stop-color="#6a2c3a"/>
+      <stop offset="100%" stop-color="#e7a15a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="41.7" cy="364.4" r="1.63" fill="#ffd7a1" opacity="0.41"/><circle cx="388.1" cy="441.5" r="1.19" fill="#ffd7a1" opacity="0.40"/><circle cx="106.6" cy="330.6" r="0.89" fill="#ffd7a1" opacity="0.64"/><circle cx="797.0" cy="240.1" r="1.09" fill="#ffd7a1" opacity="0.95"/><circle cx="153.7" cy="507.2" r="1.91" fill="#ffd7a1" opacity="0.72"/><circle cx="14.3" cy="74.3" r="1.39" fill="#ffd7a1" opacity="0.48"/><circle cx="111.6" cy="52.5" r="1.51" fill="#ffd7a1" opacity="0.78"/><circle cx="68.9" cy="410.3" r="1.54" fill="#ffd7a1" opacity="0.55"/><circle cx="797.8" cy="257.9" r="1.50" fill="#ffd7a1" opacity="0.81"/><circle cx="736.1" cy="379.6" r="0.57" fill="#ffd7a1" opacity="0.45"/><circle cx="324.3" cy="210.3" r="1.21" fill="#ffd7a1" opacity="0.41"/><circle cx="27.4" cy="35.1" r="0.59" fill="#ffd7a1" opacity="0.55"/><circle cx="759.5" cy="501.9" r="1.93" fill="#ffd7a1" opacity="0.56"/><circle cx="508.9" cy="287.1" r="0.44" fill="#ffd7a1" opacity="0.94"/><circle cx="20.1" cy="21.0" r="1.84" fill="#ffd7a1" opacity="0.73"/><circle cx="346.4" cy="231.2" r="1.37" fill="#ffd7a1" opacity="0.89"/><circle cx="128.9" cy="146.3" r="1.30" fill="#ffd7a1" opacity="0.74"/><circle cx="610.8" cy="401.1" r="0.42" fill="#ffd7a1" opacity="0.50"/><circle cx="729.3" cy="162.4" r="1.70" fill="#ffd7a1" opacity="0.35"/><circle cx="703.9" cy="350.2" r="1.23" fill="#ffd7a1" opacity="0.56"/><circle cx="485.6" cy="385.3" r="1.41" fill="#ffd7a1" opacity="0.37"/><circle cx="607.7" cy="313.2" r="1.87" fill="#ffd7a1" opacity="0.91"/><circle cx="374.3" cy="252.6" r="1.04" fill="#ffd7a1" opacity="0.80"/><circle cx="715.1" cy="416.8" r="1.25" fill="#ffd7a1" opacity="0.45"/>
+    <circle cx="639.6829025000334" cy="205.69084780476987" r="72" fill="#ffd7a1" opacity="0.16"/>
+    <circle cx="639.6829025000334" cy="205.69084780476987" r="30" fill="#ffd7a1"/>
+    <circle cx="632.1829025000334" cy="199.69084780476987" r="5.3999999999999995" fill="#fff" opacity="0.35"/>
+      <rect x="396" y="336.00000000000006" width="8" height="600" fill="#12060e"/>
+      <circle cx="400" cy="336.00000000000006" r="10" fill="#ffd7a1"/>
+      <path d="M 336 896 A 64 64 0 0 1 464 896" fill="none" stroke="#ffd7a1" stroke-width="3" opacity="0.4"/><path d="M 272 896 A 128 128 0 0 1 528 896" fill="none" stroke="#ffd7a1" stroke-width="3" opacity="0.5"/><path d="M 208 896 A 192 192 0 0 1 592 896" fill="none" stroke="#ffd7a1" stroke-width="3" opacity="0.6000000000000001"/><path d="M 144 896 A 256 256 0 0 1 656 896" fill="none" stroke="#ffd7a1" stroke-width="3" opacity="0.7"/>
+      <rect y="936" width="800" height="264" fill="#12060e"/>
+      <path d="M0 916 Q 400 946 800 906" fill="none" stroke="#c9847a" stroke-width="2" opacity="0.5"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">DRAMA  ·  MUSIC</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Low Tide Radio</text>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Lantern Fox</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="55%" stop-color="#8a5a22"/>
+      <stop offset="100%" stop-color="#f0c27a"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><line x1="96" y1="0" x2="96" y2="264" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="96" cy="292" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="68" y="264" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="94" y="325.6" width="4" height="672" fill="#140e06" opacity="0.45"/><line x1="192" y1="0" x2="192" y2="360" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="192" cy="388" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="164" y="360" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="190" y="421.6" width="4" height="576" fill="#140e06" opacity="0.45"/><line x1="288" y1="0" x2="288" y2="264" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="288" cy="292" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="260" y="264" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="286" y="325.6" width="4" height="672" fill="#140e06" opacity="0.45"/><line x1="384" y1="0" x2="384" y2="360" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="384" cy="388" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="356" y="360" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="382" y="421.6" width="4" height="576" fill="#140e06" opacity="0.45"/><line x1="480" y1="0" x2="480" y2="264" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="480" cy="292" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="452" y="264" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="478" y="325.6" width="4" height="672" fill="#140e06" opacity="0.45"/><line x1="576" y1="0" x2="576" y2="360" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="576" cy="388" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="548" y="360" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="574" y="421.6" width="4" height="576" fill="#140e06" opacity="0.45"/><line x1="672" y1="0" x2="672" y2="264" stroke="#140e06" stroke-width="2" opacity="0.7"/>
+        <circle cx="672" cy="292" r="61.600000000000016" fill="#ffe1a8" opacity="0.18"/>
+        <rect x="644" y="264" width="56.00000000000001" height="61.600000000000016" rx="11.200000000000003" fill="#ffe1a8"/>
+        <rect x="670" y="325.6" width="4" height="672" fill="#140e06" opacity="0.45"/>
+      <path d="M0 936 Q 400 906 800 936 L 800 1200 L 0 1200 Z" fill="#140e06"/>
+      <rect x="0" y="896" width="800" height="264" fill="#e6b15a" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">ANIMATION  ·  FANTASY</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Lantern Fox</text>
+</svg>

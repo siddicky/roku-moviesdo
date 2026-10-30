@@ -1,3 +1,80 @@
+# Marquee
+
+A cinematic streaming shelf for this project, named **Marquee**. It is an original interface inspired by modern living-room apps: a dark full-bleed hero, frosted navigation, and horizontal title rows. It is not affiliated with Apple and does not use Apple trademarks, wordmarks, or artwork.
+
+Marquee sits on the existing catalog bridge. With no account configured it serves an original fixture catalog and generated artwork, so the site builds, previews, and demos without credentials. Point it at the Python bridge when you want the live movies.do session the Roku channel already uses.
+
+```
+browser  →  Next.js (Marquee)  →  fixture catalog
+                              ↘  Python bridge  →  movies.do
+Roku channel  →  Python bridge
+```
+
+## Web app
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). Home, Movies, TV Shows, Search, Library, and each title page work on the fixture catalog. Arrow keys move across the nav, the hero, and each row. Play opens an in-app preview (the fixture titles have no licensed video).
+
+Production build:
+
+```bash
+npm run build
+npm start
+```
+
+The app is a Next.js project at the repo root, so Vercel detects it with no extra config. Leave the catalog env unset on preview deployments and the fixture catalog is what visitors see.
+
+### Environment
+
+Copy `.env.example` if you want live data. The browser never receives the password.
+
+| Variable | Used by | Purpose |
+|---|---|---|
+| `CATALOG_SOURCE` | Next.js | `fixture` (default) or `bridge`. `fixture` always wins when set explicitly. |
+| `MOVIESDO_BRIDGE_URL` | Next.js | Base URL of the Python bridge, for example `http://127.0.0.1:8766`. If this is set and `CATALOG_SOURCE` is not `fixture`, Marquee proxies the bridge. |
+| `MOVIESDO_EMAIL` | Python bridge | movies.do account email. Required only for a live session. |
+| `MOVIESDO_PASSWORD` | Python bridge | movies.do account password. Required only for a live session. |
+
+Live catalog:
+
+```bash
+cd server
+python3 -m venv .venv && . .venv/bin/activate
+pip install aiohttp
+MOVIESDO_EMAIL=you@example.com MOVIESDO_PASSWORD='secret' python server.py --port 8766
+```
+
+In another shell, from the repo root:
+
+```bash
+CATALOG_SOURCE=bridge MOVIESDO_BRIDGE_URL=http://127.0.0.1:8766 npm run dev
+```
+
+`GET /api/ping` reports `source` (`fixture` or `bridge`) and `credentialsConfigured` (true when both email and password are present). It does not return the secret.
+
+Artwork is generated with `npm run generate-art` from `lib/seed.ts` into `public/art/`. Those files are original geometric scenes, not studio key art.
+
+### Web API
+
+Same jobs as the bridge, shaped for the shelf UI:
+
+| Route | Purpose |
+|---|---|
+| `GET /api/ping` | liveness and catalog source |
+| `GET /api/home` | hero plus rows |
+| `GET /api/catalog?path=movies&page=1` | movies, tv-shows, popular, top-imdb, last-added, my-list/* |
+| `GET /api/search?q=` | search |
+| `GET /api/title?code=` | detail, episodes, related |
+| `GET /api/stream?video_id=` | preview payload, or bridge stream URLs |
+| `POST /api/watched` | progress (bridge) or local acknowledgement (fixture) |
+| `POST /api/list` | favorite / watch-later |
+
+---
+
 # Movies Portal TV — Linux bridge + Roku channel
 
 An unofficial client for the **movies.do** streaming portal ("Movies Portal TV").

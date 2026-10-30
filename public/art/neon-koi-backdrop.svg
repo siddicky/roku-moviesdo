@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>Neon Koi</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="55%" stop-color="#123044"/>
+      <stop offset="100%" stop-color="#7fcdc6"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="26.2" cy="549.4" r="40.8" fill="#d7fff8" opacity="0.22"/><circle cx="680.3" cy="323.3" r="40.3" fill="#d7fff8" opacity="0.22"/><circle cx="748.5" cy="315.9" r="101.6" fill="#8fd0ea" opacity="0.22"/><circle cx="1324.5" cy="345.9" r="34.8" fill="#d7fff8" opacity="0.22"/><circle cx="1081.1" cy="443.7" r="79.5" fill="#8fd0ea" opacity="0.22"/><circle cx="1114.3" cy="267.6" r="58.7" fill="#8fd0ea" opacity="0.22"/><path d="M 800 468 L 18 900 M 800 468 L 1582 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="495.00000000000006" x2="1600" y2="515" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 36 900 M 800 468 L 1564 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="540.0000000000001" x2="1600" y2="560.0000000000001" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 54 900 M 800 468 L 1546 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="585" x2="1600" y2="605" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 72 900 M 800 468 L 1528 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="630.0000000000001" x2="1600" y2="650.0000000000001" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 90 900 M 800 468 L 1510 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="675" x2="1600" y2="695" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 108 900 M 800 468 L 1492 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="720" x2="1600" y2="740" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 126 900 M 800 468 L 1474 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="765.0000000000001" x2="1600" y2="785.0000000000001" stroke="#d7fff8" stroke-width="1" opacity="0.2"/><path d="M 800 468 L 144 900 M 800 468 L 1456 900" stroke="#d7fff8" stroke-width="1" opacity="0.25"/>
+        <line x1="0" y1="810.0000000000001" x2="1600" y2="830.0000000000001" stroke="#d7fff8" stroke-width="1" opacity="0.2"/>
+      <rect x="320" y="270" width="288" height="72" rx="8" fill="#d7fff8" opacity="0.85"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>The Quiet Meridian</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1016"/>
+      <stop offset="55%" stop-color="#243044"/>
+      <stop offset="100%" stop-color="#9aa8b8"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/><circle cx="1357.4" cy="394.4" r="1.50" fill="#e6eef6" opacity="0.87"/><circle cx="27.3" cy="125.2" r="0.89" fill="#e6eef6" opacity="0.77"/><circle cx="1078.7" cy="479.4" r="0.57" fill="#e6eef6" opacity="0.56"/><circle cx="1117.2" cy="33.4" r="1.00" fill="#e6eef6" opacity="0.82"/><circle cx="1397.5" cy="226.9" r="0.59" fill="#e6eef6" opacity="0.89"/><circle cx="1505.0" cy="49.9" r="1.60" fill="#e6eef6" opacity="0.64"/><circle cx="727.6" cy="302.6" r="1.62" fill="#e6eef6" opacity="0.38"/><circle cx="1080.9" cy="123.4" r="0.95" fill="#e6eef6" opacity="0.48"/><circle cx="414.9" cy="173.6" r="0.71" fill="#e6eef6" opacity="0.64"/><circle cx="883.0" cy="311.6" r="1.03" fill="#e6eef6" opacity="0.79"/><circle cx="697.2" cy="226.6" r="0.41" fill="#e6eef6" opacity="0.56"/><circle cx="602.0" cy="1.0" r="1.97" fill="#e6eef6" opacity="0.76"/><circle cx="713.5" cy="206.0" r="1.36" fill="#e6eef6" opacity="0.64"/><circle cx="556.7" cy="464.3" r="0.43" fill="#e6eef6" opacity="0.37"/><circle cx="271.3" cy="127.5" r="1.10" fill="#e6eef6" opacity="0.39"/><circle cx="680.6" cy="438.1" r="1.11" fill="#e6eef6" opacity="0.43"/><circle cx="132.4" cy="250.7" r="1.77" fill="#e6eef6" opacity="0.81"/><circle cx="1424.3" cy="286.5" r="0.65" fill="#e6eef6" opacity="0.57"/>
+    <circle cx="1194.545650318265" cy="173.50830135075378" r="113.39999999999999" fill="#e6eef6" opacity="0.16"/>
+    <circle cx="1194.545650318265" cy="173.50830135075378" r="47.25" fill="#e6eef6"/>
+    <circle cx="1182.733150318265" cy="164.0583013507538" r="8.504999999999999" fill="#fff" opacity="0.35"/>
+      <rect x="128" y="522" width="240" height="144" rx="6" fill="#080c12"/><rect x="142" y="538" width="16" height="12" fill="#e6eef6" opacity="0.6705745695391669"/><rect x="170" y="538" width="16" height="12" fill="#e6eef6" opacity="0.5560349895851686"/><rect x="198" y="538" width="16" height="12" fill="#e6eef6" opacity="0.6460779746295884"/><rect x="226" y="538" width="16" height="12" fill="#e6eef6" opacity="0.5191428498830646"/><rect x="416" y="522" width="240" height="144" rx="6" fill="#080c12"/><rect x="430" y="538" width="16" height="12" fill="#e6eef6" opacity="0.6688992213923484"/><rect x="458" y="538" width="16" height="12" fill="#e6eef6" opacity="0.7823424375848844"/><rect x="486" y="538" width="16" height="12" fill="#e6eef6" opacity="0.8752544392365962"/><rect x="514" y="538" width="16" height="12" fill="#e6eef6" opacity="0.7457552004372701"/><rect x="704" y="522" width="240" height="144" rx="6" fill="#080c12"/><rect x="718" y="538" width="16" height="12" fill="#e6eef6" opacity="0.932518506469205"/><rect x="746" y="538" width="16" height="12" fill="#e6eef6" opacity="0.8372678609332069"/><rect x="774" y="538" width="16" height="12" fill="#e6eef6" opacity="0.734270137315616"/><rect x="802" y="538" width="16" height="12" fill="#e6eef6" opacity="0.933145936159417"/><rect x="992" y="522" width="240" height="144" rx="6" fill="#080c12"/><rect x="1006" y="538" width="16" height="12" fill="#e6eef6" opacity="0.7031539461342617"/><rect x="1034" y="538" width="16" height="12" fill="#e6eef6" opacity="0.8609505388187244"/><rect x="1062" y="538" width="16" height="12" fill="#e6eef6" opacity="0.9448876269627362"/><rect x="1090" y="538" width="16" height="12" fill="#e6eef6" opacity="0.9064064049627631"/><rect x="1280" y="522" width="240" height="144" rx="6" fill="#080c12"/><rect x="1294" y="538" width="16" height="12" fill="#e6eef6" opacity="0.7050365711795166"/><rect x="1322" y="538" width="16" height="12" fill="#e6eef6" opacity="0.8706195914885029"/><rect x="1350" y="538" width="16" height="12" fill="#e6eef6" opacity="0.5580055439379066"/><rect x="1378" y="538" width="16" height="12" fill="#e6eef6" opacity="0.7593464797129854"/>
+      <rect y="684" width="1600" height="6" fill="#e6eef6" opacity="0.5"/>
+      <rect y="720" width="1600" height="180" fill="#080c12"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

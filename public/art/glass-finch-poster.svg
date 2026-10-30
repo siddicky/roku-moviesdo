@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Glass Finch</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a12"/>
+      <stop offset="55%" stop-color="#6e2440"/>
+      <stop offset="100%" stop-color="#f0a3b5"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+      <circle cx="560" cy="504" r="128" fill="#ffd0dc" opacity="0.35"/>
+      <rect x="6.865616061259061" y="485.45240701083094" width="18.48853681376204" height="714.5475929891691" fill="#14060c" opacity="0.8193060183431953"/><rect x="60.693819364200216" y="558.1411552559583" width="26.91632020333782" height="641.8588447440417" fill="#14060c" opacity="0.8017953003756702"/><rect x="118.32902692657497" y="338.96151392161846" width="22.64557750429958" height="861.0384860783815" fill="#14060c" opacity="0.7858889949740842"/><rect x="173.8729725535294" y="451.1583040226251" width="28.87764367647469" height="748.8416959773749" fill="#14060c" opacity="0.8781480994541198"/><rect x="230.67031301657804" y="524.4216621145606" width="14.30437153019011" height="675.5783378854394" fill="#14060c" opacity="0.8828441630350425"/><rect x="287.4112700607761" y="247.49048277642575" width="21.3205918809399" height="952.5095172235742" fill="#14060c" opacity="0.5479966105660423"/><rect x="349.3989206877138" y="363.0948134874925" width="17.03254255419597" height="836.9051865125075" fill="#14060c" opacity="0.8514222805853933"/><rect x="403.0883365194313" y="613.7962903724983" width="24.272214498370886" height="586.2037096275017" fill="#14060c" opacity="0.8196843348443508"/><rect x="458.24874837383896" y="332.32170262746513" width="11.019599587190896" height="867.6782973725349" fill="#14060c" opacity="0.6646221228176727"/><rect x="519.7747038973363" y="454.82461539935315" width="19.67340201791376" height="745.1753846006468" fill="#14060c" opacity="0.5651474113576114"/><rect x="575.177032464583" y="584.8473644899204" width="19.522524556610733" height="615.1526355100796" fill="#14060c" opacity="0.49771132476162167"/><rect x="638.0375861060539" y="272.3603140320629" width="28.41241297731176" height="927.6396859679371" fill="#14060c" opacity="0.540755883953534"/><rect x="690.3964130796626" y="314.06997128762305" width="12.3718032236211" height="885.930028712377" fill="#14060c" opacity="0.5396512314211577"/><rect x="751.4413575598571" y="293.4920920841396" width="24.883860901929438" height="906.5079079158604" fill="#14060c" opacity="0.732142203184776"/><rect x="0" y="744" width="800" height="264" fill="#e78aa0" opacity="0.18"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">ANIMATION  ·  DRAMA</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Glass Finch</text>
+</svg>

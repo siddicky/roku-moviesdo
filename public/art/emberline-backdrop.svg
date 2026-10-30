@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+  <title>Emberline</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140804"/>
+      <stop offset="55%" stop-color="#7a2e0e"/>
+      <stop offset="100%" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+    <circle cx="1121.2144128978252" cy="184.3093203487806" r="226.79999999999998" fill="#ffd0a1" opacity="0.16"/>
+    <circle cx="1121.2144128978252" cy="184.3093203487806" r="94.5" fill="#ffd0a1"/>
+    <circle cx="1097.5894128978252" cy="165.4093203487806" r="17.009999999999998" fill="#fff" opacity="0.35"/>
+      <circle cx="800" cy="855" r="720" fill="#ffd0a1" opacity="0.18"/>
+      <path d="M0 315 L 288 275 L 640 303 L 992 279 L 1312 299 L 1600 305 L 1600 900 L 0 900 Z" fill="#120600" opacity="0.28"/><path d="M0 432 L 288 372 L 640 414 L 992 378 L 1312 408 L 1600 422 L 1600 900 L 0 900 Z" fill="#120600" opacity="0.44000000000000006"/><path d="M0 558 L 288 478 L 640 534 L 992 486 L 1312 526 L 1600 548 L 1600 900 L 0 900 Z" fill="#120600" opacity="0.6000000000000001"/><path d="M0 702 L 288 602 L 640 672 L 992 612 L 1312 662 L 1600 692 L 1600 900 L 0 900 Z" fill="#120600" opacity="0.76"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+</svg>

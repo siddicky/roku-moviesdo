@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 800 1200" role="img">
+  <title>Emberline</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140804"/>
+      <stop offset="55%" stop-color="#7a2e0e"/>
+      <stop offset="100%" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070708" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#070708" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+    <circle cx="659.5819416493177" cy="243.22142878733578" r="201.6" fill="#ffd0a1" opacity="0.16"/>
+    <circle cx="659.5819416493177" cy="243.22142878733578" r="84" fill="#ffd0a1"/>
+    <circle cx="638.5819416493177" cy="226.42142878733577" r="15.12" fill="#fff" opacity="0.35"/>
+      <circle cx="400" cy="1140" r="360" fill="#ffd0a1" opacity="0.18"/>
+      <path d="M0 420 L 144 380 L 320 408 L 496 384 L 656 404 L 800 410 L 800 1200 L 0 1200 Z" fill="#120600" opacity="0.28"/><path d="M0 576 L 144 516 L 320 558 L 496 522 L 656 552 L 800 566 L 800 1200 L 0 1200 Z" fill="#120600" opacity="0.44000000000000006"/><path d="M0 744 L 144 664 L 320 720 L 496 672 L 656 712 L 800 734 L 800 1200 L 0 1200 Z" fill="#120600" opacity="0.6000000000000001"/><path d="M0 936 L 144 836 L 320 906 L 496 846 L 656 896 L 800 926 L 800 1200 L 0 1200 Z" fill="#120600" opacity="0.76"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+    <rect x="0" y="1040" width="800" height="160" fill="url(#scrim)"/>
+    <text x="48" y="1086" fill="#f7f4ee" opacity="0.78" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3">ACTION  ·  ADVENTURE</text>
+    <text x="48" y="1128" fill="#f7f4ee" font-family="Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">Emberline</text>
+</svg>
