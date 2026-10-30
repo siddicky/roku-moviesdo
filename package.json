@@ -8,7 +8,7 @@
     "generate-art": "node scripts/generate-art.mjs"
   },
   "dependencies": {
-    "next": "^15.5.4",
+    "next": "^16.4.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "server-only": "^0.0.1"
